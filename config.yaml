@@ -1,0 +1,23 @@
+# Email Spam Classifier Configuration
+
+# Data Configuration
+data_path: "mail_data.csv"
+test_size: 0.2
+random_state: 42
+
+# Feature Extraction Configuration
+min_df: 1
+max_df: 0.95
+stop_words: "english"
+max_features: null
+
+# Model Configuration
+model_type: "logistic_regression"
+max_iter: 100
+
+# Path Configuration
+model_dir: "models"
+logs_dir: "logs"
+
+# Logging Configuration
+log_level: "INFO"
